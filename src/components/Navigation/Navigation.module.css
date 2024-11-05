@@ -1,0 +1,9 @@
+.headLink{
+   padding: 8px;
+   border-radius: 15px
+}
+.headLink:focus{
+   background-color: rgba(56, 68, 95, 0.273);
+
+
+}

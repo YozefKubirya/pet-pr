@@ -1,0 +1,23 @@
+.skillTitle{
+   margin: 0 0 40px 0;
+}
+.skillsList{
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .5rem;
+}
+.skillsItem{
+   padding: .75rem 1.25rem .75rem 1.25rem;
+   border-radius: 4px;
+   background-color: rgba(56, 68, 95, 0.273);
+   transition: 500ms;
+}
+.skillsList :last-child{
+   margin-right: 0px;
+}
+.skillsItem:hover{
+   background-color: rgb(102, 123, 162);
+   color: rgb(21, 20, 20);
+  transition: 500ms;
+}

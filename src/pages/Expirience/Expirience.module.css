@@ -1,0 +1,17 @@
+.expList{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 600px;
+}
+.expItem{
+background-color: rgba(56, 68, 95, 0.273);
+padding: 1rem;
+margin-bottom: 10px;
+border-radius: 4px;
+text-align: start;
+}
+.expItem:last-child{
+   margin-bottom: 0px;
+}

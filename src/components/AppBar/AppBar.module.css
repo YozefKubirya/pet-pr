@@ -1,0 +1,15 @@
+.header{
+  position: fixed;
+  top: 0 ;
+   display: flex;
+   align-items: center;
+   justify-content: space-between; 
+   padding: 0.5rem;
+   margin:10px 0px 10px 0px;
+   border: 2px solid rgb(152, 146, 146);
+   width: 800px;
+   border-radius: 4px;
+   background-color: rgba(2, 10, 29, 0.927) ;
+   z-index: 1;
+   opacity: 1;
+ }
