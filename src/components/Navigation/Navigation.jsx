@@ -1,77 +1,36 @@
-import { Link } from "react-router-dom"
+
 
 import css from '../Navigation/Navigation.module.css'
-export const Navigation=()=>{
+export const Navigation = () => {
+   const scrollToSection = (id) => {
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start',
+        });
+      }
+    };
+  
    return <>
-   {/* <NavLink to='/' >
-   Home
-   </NavLink>
-
-   <NavLink to='/about'>
+   
+   <a href = "#home" className = {css.headLink} onClick = {(e) => { e.preventDefault(); scrollToSection('home'); }}>
+      Home
+   </a>
+   <a href = "#about" className = {css.headLink} onClick = {(e) => { e.preventDefault(); scrollToSection('about'); }}>
       About
-   </NavLink>
-
-   <NavLink to='/projects'>
+   </a>
+   <a href = "#projects"  className = {css.headLink} onClick = {(e) => { e.preventDefault(); scrollToSection('projects'); }}>
       Projects
-   </NavLink>
-   <NavLink to='/skills'>
-Skills
-   </NavLink>
-   <NavLink to='/experience'>
-Experience
-   </NavLink>
-   <NavLink to='/contacts'>
-Contacts
-   </NavLink> */}
-   <Link to='/' onClick={()=>{
-      const element=document.getElementById('home')
-      element.scrollIntoView({
-         behavior:'smooth'
-      })
-   }} className={css.headLink}>
-   Home
-   </Link>
-
-   <Link to='/about' onClick={()=>{
-      const element=document.getElementById('about')
-      element.scrollIntoView({
-         behavior:'smooth'
-      })
-   }} className={css.headLink}>
-      About
-   </Link>
-
-   <Link to='/projects' onClick={()=>{
-      const element=document.getElementById('projects')
-      element.scrollIntoView({
-         behavior:'smooth'
-      })
-   }} className={css.headLink}>
-      Projects
-   </Link>
-   <Link to='/skills' onClick={()=>{
-      const element=document.getElementById('skills')
-      element.scrollIntoView({
-         behavior:'smooth'
-      })
-   }} className={css.headLink}>
-Skills
-   </Link>
-   <Link to='/experience' onClick={()=>{
-      const element=document.getElementById('experience')
-      element.scrollIntoView({
-         behavior:'smooth'
-      })
-   }} className={css.headLink}>
-Experience
-   </Link>
-   <Link to='/contacts' onClick={()=>{
-      const element=document.getElementById('contacts')
-      element.scrollIntoView({
-         behavior:'smooth'
-      })
-   }} className={css.headLink}>
-Contacts
-   </Link>
+   </a>
+   <a href = "#skills" className = {css.headLink} onClick = {(e) => { e.preventDefault(); scrollToSection('skills'); }}>
+      Skills
+   </a>
+   <a href = "#experience" className = {css.headLink} onClick = {(e) => { e.preventDefault(); scrollToSection('experience'); }}>
+      Experience
+   </a>
+   <a href = "#contacts" className = {css.headLink} onClick = {(e) => { e.preventDefault(); scrollToSection('contacts'); }}>
+      Contacts
+   </a>
    </>
 }

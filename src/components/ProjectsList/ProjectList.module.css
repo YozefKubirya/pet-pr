@@ -11,12 +11,11 @@
 .projectItem{
    padding: 0.5rem;
    margin: 0;
-   background-color:rgba(56, 68, 95, 0.273);
+   background-color:rgba(31, 46, 81, 0.273);
    border-radius: 8px;
    transition: 500ms;
    width: 600px;
    transform: scale(1);
-   
 }
 .projectItem:hover{
    transition: 500ms;

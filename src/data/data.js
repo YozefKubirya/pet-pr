@@ -22,7 +22,8 @@ export const myProjectsData=[
       functional: "user sign up/sign in/logout, create/update/delete contacts available after login.",
       tags: ["React", "Module CSS", "Router DOM", "Redux Toolkit"],
       imageUrl:phoneBookImg ,
-      link: "https://github.com/YozefKubirya/Phonebook-App"
+      gitHubLink: "https://github.com/YozefKubirya/Phonebook-App",
+      projectLink:"https://goit-react-hw-08-nu-lime.vercel.app"
     },
     {id:2,
       title: "Bookshelf",
@@ -31,7 +32,8 @@ export const myProjectsData=[
       functional: "popular books, filter by category, shopping list, modals, burger menu.",
       tags: ["HTML", "CSS", "Vanilla JS", "Firebase"],
       imageUrl: bookShelfImg,
-      link: "https://github.com/YozefKubirya/command-project-team-10-bookshelf"
+      gitHubLink: "https://github.com/YozefKubirya/command-project-team-10-bookshelf",
+      projectLink:"https://zyabrik10.github.io/project-team-10/"
     },
     {id:3,
       title: "IceCream-Project",
@@ -40,7 +42,8 @@ export const myProjectsData=[
       functional: "ice cream store",
       tags: ["HTML", "SCSS"],
       imageUrl: iceCreamImg,
-      link: "https://github.com/YozefKubirya/command-project-TheBoys-icecream"
+      gitHubLink: "https://github.com/YozefKubirya/command-project-TheBoys-icecream",
+      projectLink:"https://bogdanl-ua.github.io/TheBoys-icecream/"
     },
     {id:4,
       title: "Web-Studio App",
@@ -49,7 +52,8 @@ export const myProjectsData=[
       functional: "informative company website, its features, team, clients and portfolio.",
       tags: ["HTML", "SCSS"],
       imageUrl: webStudioImg,
-      link: "https://github.com/YozefKubirya/WebStudio-App"
+      gitHubLink: "https://github.com/YozefKubirya/WebStudio-App",
+      projectLink:"https://yozefkubirya.github.io/WebStudio-App/"
     },
    ]
 

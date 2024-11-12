@@ -16,8 +16,6 @@
   flex-direction: column; /* flex-col */
   text-align: start;
   height: 100%; 
-  
- 
 }
 @media (min-width: 640px) {
    .projectContent {
@@ -79,4 +77,18 @@
         right: initial; /* group-even:right-[initial] */
         left: -10rem; /* group-even:-left-40 */
       }
+    }
+
+    .linkGT{
+    padding: 0.3rem;
+    background-color: #2d57959f;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    transition: 500ms;
+    width: 200px;
+    }
+    .linkGT:hover{
+      background-color: #71a2ea9f;
     }

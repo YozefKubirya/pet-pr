@@ -11,11 +11,10 @@ import { Experience } from './pages/Expirience/Experience'
 import { Contacts } from './pages/Contacts/Contacts'
 import { Footer } from './components/Footer/Footer'
 function App() {
-  
   return (
     <>
 <Layout >
-<Suspense fallback={<div>Loading.....</div>}>
+<Suspense fallback = {<div>Loading.....</div>}>
 {/* <Routes>
 <Route path='/' element={<HomePage/>}/>
 <Route path='/about' element={<About/>}/>
@@ -32,10 +31,8 @@ function App() {
 <Contacts/>
 <Footer/>
 </Suspense>
-
 </Layout>
-     
-    </>
+       </>
   )
 }
 
