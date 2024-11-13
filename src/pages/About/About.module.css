@@ -1,4 +1,6 @@
 .aboutText{
    font-size: 18px;
    font-weight: 500;
+   width: 800px;
+   text-align: start;
 }

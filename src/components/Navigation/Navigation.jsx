@@ -14,7 +14,7 @@ export const Navigation = () => {
   
    return <>
    
-   <a href = "#home" className = {css.headLink} onClick = {(e) => { e.preventDefault(); scrollToSection('home'); }}>
+   <a href = "#home" className = {css.headLink} onClick = {(e) => { e.preventDefault(); scrollToSection('home'); }} >
       Home
    </a>
    <a href = "#about" className = {css.headLink} onClick = {(e) => { e.preventDefault(); scrollToSection('about'); }}>
