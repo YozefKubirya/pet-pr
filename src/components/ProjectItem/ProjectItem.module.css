@@ -8,11 +8,11 @@
    padding-right: 6.5rem;
 }
 .projectContent{
-   padding-top: 1rem; /* pt-4 */
-  padding-bottom: 1.75rem; /* pb-7 */
-  padding-left: 1.25rem; /* px-5 */
-  padding-right: 1.25rem; /* px-5 */
-  display: flex; /* flex */
+  padding-top: 0.75rem; 
+  padding-bottom: 0.75rem; 
+  padding-left: 1.25rem; 
+  padding-right: 1.25rem; 
+  display: flex; 
   flex-direction: column; /* flex-col */
   text-align: start;
   height: 100%; 
