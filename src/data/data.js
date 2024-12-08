@@ -32,8 +32,8 @@ export const myProjectsData=[
       functional: "popular books, filter by category, shopping list, modals, burger menu.",
       tags: ["HTML", "CSS", "Vanilla JS", "Firebase"],
       imageUrl: bookShelfImg,
-      gitHubLink: "https://github.com/YozefKubirya/command-project-team-10-bookshelf",
-      projectLink:"https://zyabrik10.github.io/project-team-10/"
+      gitHubLink: "https://github.com/YozefKubirya/book-shelf-project",
+      projectLink:"https://yozefkubirya.github.io/book-shelf-project"
     },
     {id:3,
       title: "IceCream-Project",
