@@ -5,7 +5,7 @@ export const Footer = () => {
       <small>
          &copy; 2024 Yozef. All rights reserved.
       </small>
-      <p className={css.footerText}><span className='font-semibold'>About this website:</span> built with React,  TypeScript, Vercel hosting.</p>
+      <p className={css.footerText}><span className='font-semibold'>About this website:</span> built with React, Vercel hosting.</p>
    </footer>
    </>
 }
