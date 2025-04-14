@@ -76,7 +76,7 @@ export const myProjectsData=[
       tags: ["HTML", "Module CSS", "React", "Redux Toolkit", 'JSON'],
       imageUrl: travelTruckImg,
       gitHubLink: "https://github.com/YozefKubirya/travel-tracks",
-      projectLink:"pet-31hucgm9a-yozefs-projects.vercel.app"
+      projectLink:"https://travel-tracks-fawn.vercel.app/"
       
     }
    ]
