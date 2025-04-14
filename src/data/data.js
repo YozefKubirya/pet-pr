@@ -3,6 +3,7 @@ import bookShelfImg from '../images/BookShelfIMG.jpeg'
 import iceCreamImg from '../images/IceCreamIMG.jpeg'
 import webStudioImg from '../images/WebStudioIMG.jpeg'
 import aquaTrackerImg from '../images/aqua-tracker.jpeg'
+import travelTruckImg from '../images/travelTruck.jpeg'
 export const mySkillsData=[ 
    "HTML",
    "CSS",
@@ -13,7 +14,7 @@ export const mySkillsData=[
    "Node.js",
    "Express",
    "MongoDB",
-   "TypeScript",
+   "Firebase"
   ]
 export const myProjectsData=[
    {id:1,
@@ -66,6 +67,17 @@ export const myProjectsData=[
       gitHubLink: "https://github.com/YozefKubirya/aqua-tracker-project",
       projectLink:"https://aqua-tracker-project.vercel.app/"
       
+    },
+    {
+      id:6,
+      title:"Travel Trucks App",
+      description:"Web aplication that allow search, filter and store trucks",
+      functional: "informative company website, its features and trucks",
+      tags: ["HTML", "Module CSS", "React", "Redux Toolkit", 'JSON'],
+      imageUrl: travelTruckImg,
+      gitHubLink: "https://github.com/YozefKubirya/travel-tracks",
+      projectLink:"pet-31hucgm9a-yozefs-projects.vercel.app"
+      
     }
    ]
 
@@ -89,6 +101,6 @@ export const myProjectsData=[
       location: "Remote",
       description:
       "On course I covered topics like HTML, CSS, JS, React, Redux, Node.js and many more. Created several individual and group projects.",
-      date: "Aug 2022 - Dec 2024",
+      date: "June 2023 - Dec 2024",
     }
    ]
